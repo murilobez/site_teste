@@ -1,0 +1,195 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #0388A6;
+}
+h1{
+    color: #EEAACF;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    text-shadow: 2px 2px 1px 	#838383;
+    padding-bottom: 2%;
+    padding-top: 2%;
+
+
+}
+
+header{
+    width: 100%;
+    background-image:linear-gradient(to bottom right, #486A78, #0388A6, #8FC4D9);
+
+}
+
+.logo{
+    color: black;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+nav{
+    color: black;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.banner{
+    width: 100%;
+}
+
+.container{
+    background-color:  #8FC4D9;
+    width: 80%;
+    margin: auto;
+    font-family: 'Karla', sans-serif;
+
+    
+
+}
+
+footer{
+    background-image:linear-gradient(to bottom right, #486A78, #0388A6, #8FC4D9);
+    color: black;
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+.biog {
+    width: 100%;
+}
+
+p{
+    margin-right: 2%;
+    margin-left: 2%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-size: 1.2em;
+    line-height: 1.5;
+   
+
+}
+h2 {
+    color: #DCB49B;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 1px 1px 1px #707070;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+h3{
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+   
+
+}
+.img1{
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+    box-shadow: #707070;
+}
+
+.img2{
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+
+}
+.img3{
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.img4{
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+}
+.img5{
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.headerfont{
+    font-family: 'Karla', sans-serif;
+
+}
+.row{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;    
+}
+
+.col-6 {
+    width: 33.3%;
+}
+@media (max-width: 800px) {
+    .row {
+      flex-direction: column;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+    .col-4 {
+        width: 100%;
+    }
+  }
+
+  .col-4 {
+    width: 50%;
+  }
+
+    .itens_menu a:hover {
+        color:  #D9C8A9;
+        padding: 0.1%;    
+        background-color: #A64724; 
+        text-decoration: none;
+        border-radius: 10%;
+    }
+    
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td {
+        border: 1px solid #D9C8A9;
+        text-align: left;
+        padding: 8px;
+        font-family: 'Karla', sans-serif;
+        font-size: 1.5em;
+        
+      }
+      th {
+        border: 1px solid #D9C8A9;
+        text-align: center;
+        padding: 8px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 3.0em;
+        text-shadow: 2px 2px 1px 	#838383;
+        color: #A64724;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #D9C8A9;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.5em;
+       
+      }
+      .listameio li{
+        font-size: 1.2em;
+        list-style-image: url('../img/microphone.png');
+        margin-left: 10%;
+        
+    }
+    .imgfloat {
+        float: right;
+        padding-right: 2.0%;
+        padding-left: 1.5%;
+    }
